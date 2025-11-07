@@ -18,5 +18,5 @@
     - rotate all indexes
     - restart sphinx
 
-- include: ext_config.yml
+- include_tasks: ext_config.yml
   when: sphinx_use_ext_config == True
